@@ -1,0 +1,187 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+    color: ivory;
+}
+
+.section-title h3 {
+    font-weight: bolder;
+    margin-bottom: 0;
+    color: #de955a;
+}
+
+.hr-style {
+    border: 5px dotted #de955a;
+    border-bottom: none;
+    width: 50px;
+}
+
+.section-titlee h3 {
+    font-weight: bolder;
+    margin-bottom: 0;
+    color: #de955a;
+}
+
+
+/* header start  */
+
+header {
+    background-image: url("home.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    padding: 1% 10%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-icon {
+    color: #de955a;
+}
+
+.navbar-brand img {
+    width: 60px;
+    height: auto;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+.nav-link:hover {
+    background: #156397;
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+}
+
+.banner-container {
+    height: 100vh;
+}
+
+.banner-container h1 {
+    font-size: 3.5rem;
+    background-color: rgba(7, 101, 189, 0.8);
+    padding: 10px 20px;
+    font-family: 'Handlee', cursive;
+    border-radius: 5px;
+}
+
+
+/* header ends  */
+
+
+/* contact starts */
+
+#Contact {
+    padding: 2% 10%;
+    background: #313552
+}
+
+.form-group label {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+
+/* contact ends */
+
+
+/* footer starts  */
+
+footer {
+    padding: 1% 10%;
+    background: #1f2336;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: black;
+}
+
+
+/* footer ends */
+
+@media (max-width:700px) {
+    .nav-link {
+        background: rgb(0, 0, 0, 0.7);
+    }
+}
+
+body {
+    margin: 0;
+}
+
+#home {
+    background-color: #313552;
+    padding: 2% 10%;
+}
+
+#home2 {
+    background-color: #313552;
+    padding: 13% 10%;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(odd) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
